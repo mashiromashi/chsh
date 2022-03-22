@@ -4,11 +4,38 @@
 	"description": "Open cheat.sh directly in your new VSCode window",
 	"version": "0.0.1",
 	"engines": {
-		"vscode": "^1.65.0"
+    "vscode": "^1.65.0"
 	},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mashiromashi/chsh.git"
+  },
+  "license": "MIT",
 	"categories": [
-		"Other"
+		"Programming Languages",
+    "Other"
 	],
+  "tags": [
+    "python",
+    "ruby",
+    "php",
+    "rust",
+    "C#",
+    "go",
+    "haskell",
+    "typescript",
+    "shell",
+    "javascript",
+    "node",
+    "snippet",
+    "examples",
+    "documentation",
+    "help",
+    "tldr",
+    "helper",
+    "cheatsheet"
+  ],
+
 	"activationEvents": [
 		"onCommand:chsh.query"
 	],
